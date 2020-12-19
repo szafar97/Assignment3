@@ -7,17 +7,19 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
+import com.szafar97.assignment3.Calculator.CalculatorActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    NavigationView navigationView;
-    DrawerLayout drawerLayout;
-    Toolbar toolbar;
+    protected NavigationView navigationView;
+    protected DrawerLayout drawerLayout;
+    protected Toolbar toolbar;
     ActionBarDrawerToggle toggle;
 
     @Override
@@ -43,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_calculator :
                         Toast.makeText(getApplicationContext(),"Calculator Started",Toast.LENGTH_SHORT).show();
                         drawerLayout.closeDrawer(GravityCompat.START);
+                        Intent intent = new Intent(MainActivity.this, CalculatorActivity.class);
+                        startActivity(intent);
                         break;
 
                     case R.id.nav_quiz :

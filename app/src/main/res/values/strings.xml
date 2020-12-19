@@ -6,4 +6,6 @@
     <string name="mc_assignment_3">MC Assignment 3</string>
     <string name="avatar_name">Shoaib Zafar</string>
     <string name="roll_number">BITF17A531</string>
+    <string name="open">Opening</string>
+    <string name="close">Closing</string>
 </resources>

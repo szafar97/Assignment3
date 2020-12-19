@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 import com.szafar97.assignment3.Calculator.CalculatorActivity;
+import com.szafar97.assignment3.Quiz.QuizHome;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,15 +44,17 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId())
                 {
                     case R.id.nav_calculator :
-                        Toast.makeText(getApplicationContext(),"Calculator Started",Toast.LENGTH_SHORT).show();
                         drawerLayout.closeDrawer(GravityCompat.START);
-                        Intent intent = new Intent(MainActivity.this, CalculatorActivity.class);
-                        startActivity(intent);
+                        Intent intent1 = new Intent(MainActivity.this, CalculatorActivity.class);
+                        startActivity(intent1);
+                        Toast.makeText(getApplicationContext(),"Calculator Started",Toast.LENGTH_SHORT).show();
                         break;
 
                     case R.id.nav_quiz :
-                        Toast.makeText(getApplicationContext(),"Quiz Started",Toast.LENGTH_SHORT).show();
                         drawerLayout.closeDrawer(GravityCompat.START);
+                        Intent intent2 = new Intent(MainActivity.this, QuizHome.class);
+                        startActivity(intent2);
+                        Toast.makeText(getApplicationContext(),"Quiz Started",Toast.LENGTH_SHORT).show();
                         break;
                 }
 

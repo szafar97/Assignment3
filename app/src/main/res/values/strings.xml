@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Assignment3</string>
+    <string name="calculator">Calculator</string>
+    <string name="quiz">Quiz</string>
+    <string name="avatar">Avatar</string>
+    <string name="mc_assignment_3">MC Assignment 3</string>
+    <string name="avatar_name">Shoaib Zafar</string>
+    <string name="roll_number">BITF17A531</string>
 </resources>

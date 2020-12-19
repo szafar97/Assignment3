@@ -8,4 +8,22 @@
     <string name="roll_number">BITF17A531</string>
     <string name="open">Opening</string>
     <string name="close">Closing</string>
+    <string name="calc_subtract">-</string>
+    <string name="calc_add">+</string>
+    <string name="calc_AC">AC</string>
+    <string name="calc_multiply">x</string>
+    <string name="_2">2</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="_7">7</string>
+    <string name="_3">3</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="calc_decimal">.</string>
+    <string name="calc_equal">=</string>
+    <string name="calc_divide">÷</string>
+    <string name="calc_C">C</string>
+    <string name="_6">6</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
 </resources>

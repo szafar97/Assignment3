@@ -32,4 +32,6 @@
     <string name="next">View Answer</string>
     <string name="your_score_is">Your score is:</string>
     <string name="restart">RESTART</string>
+    <string name="copyright">© Shoaib Zafar</string>
+    <string name="email">bitf17a531@pucit.edu.pk</string>
 </resources>

@@ -95,7 +95,7 @@ public class QuizMain extends MainActivity {
             }
 
             public void onFinish() {
-                nextMCQ(new View(null));
+                nextMCQ(nextButton);
                 timerText.setText("Time Up");
                 counter = 0;
             }
